@@ -1,0 +1,250 @@
+{
+  "units": [
+    {
+      "id": "u0-placement",
+      "title": "Placement Test",
+      "description": "Test iniziale per valutare il tuo livello di maltese",
+      "order": 0,
+      "isUnlocked": true,
+      "lessons": [
+        {
+          "id": "pl-01",
+          "title": "Basics Check",
+          "description": "Verifica delle conoscenze base",
+          "order": 1,
+          "estimatedDuration": 5,
+          "isCompleted": false,
+          "bestScore": 0,
+          "attempts": 0,
+          "items": [
+            {
+              "id": "pl-01-01",
+              "type": "multipleChoice",
+              "prompt": "Traduci: Hello",
+              "choices": ["Bongu", "Bonswa", "Ħelow"],
+              "answer": "Ħelow",
+              "difficulty": 1,
+              "tags": ["greetings", "basics"],
+              "explanation": "Ħelow è la traslitterazione di 'Hello' in maltese"
+            },
+            {
+              "id": "pl-01-02",
+              "type": "typeWhatYouHear",
+              "prompt": "Scrivi quello che senti",
+              "audio": "/audio/iva.mp3",
+              "accept": ["Iva"],
+              "answer": "Iva",
+              "difficulty": 1,
+              "tags": ["listening", "basics"],
+              "explanation": "Iva significa 'Sì' in maltese"
+            },
+            {
+              "id": "pl-01-03",
+              "type": "multipleChoice",
+              "prompt": "Traduci: Good morning",
+              "choices": ["Bongu", "Bonswa", "Il-lejl it-tajjeb"],
+              "answer": "Bongu",
+              "difficulty": 1,
+              "tags": ["greetings", "time"],
+              "explanation": "Bongu si usa al mattino, Bonswa alla sera"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u1-bażi",
+      "title": "Bażi - Le Basi",
+      "description": "Impara le fondamenta della lingua maltese",
+      "order": 1,
+      "isUnlocked": true,
+      "lessons": [
+        {
+          "id": "l1-greetings",
+          "title": "Tislijiet - Saluti",
+          "description": "Saluti e forme di cortesia base",
+          "order": 1,
+          "estimatedDuration": 8,
+          "isCompleted": false,
+          "bestScore": 0,
+          "attempts": 0,
+          "items": [
+            {
+              "id": "l1-01",
+              "type": "matchPairs",
+              "prompt": "Abbina le parole maltesi con le traduzioni",
+              "pairs": [
+                ["Bongu", "Good morning"],
+                ["Bonswa", "Good evening"],
+                ["Grazzi", "Thanks"],
+                ["Jekk jogħġbok", "Please"]
+              ],
+              "answer": ["Bongu", "Bonswa", "Grazzi", "Jekk jogħġbok"],
+              "difficulty": 1,
+              "tags": ["greetings", "courtesy"],
+              "explanation": "Questi sono i saluti più comuni in maltese"
+            },
+            {
+              "id": "l1-02",
+              "type": "orderTheTokens",
+              "prompt": "Ordina le parole per formare: 'How are you?'",
+              "tokens": ["Kif", "inti?"],
+              "accept": ["Kif inti?", "Kif int?"],
+              "answer": "Kif inti?",
+              "difficulty": 2,
+              "tags": ["questions", "syntax"],
+              "explanation": "Kif inti? è la forma più comune per chiedere 'Come stai?'"
+            },
+            {
+              "id": "l1-03",
+              "type": "multipleChoice",
+              "prompt": "Traduci: Yes",
+              "choices": ["Le", "Iva", "Mela"],
+              "answer": "Iva",
+              "difficulty": 1,
+              "tags": ["basics", "affirmation"],
+              "explanation": "Iva è la forma standard per 'Sì', Mela è più informale"
+            },
+            {
+              "id": "l1-04",
+              "type": "fillTheGap",
+              "prompt": "Completa la frase",
+              "text": "Bongu! ___ inti?",
+              "gap": "Kif",
+              "accept": ["Kif"],
+              "answer": "Kif",
+              "difficulty": 2,
+              "tags": ["greetings", "questions"],
+              "explanation": "Kif significa 'Come' e si usa per chiedere dello stato"
+            }
+          ]
+        },
+        {
+          "id": "l2-intros",
+          "title": "Introduzzjonijiet - Presentazioni",
+          "description": "Come presentarsi e chiedere informazioni personali",
+          "order": 2,
+          "estimatedDuration": 10,
+          "isCompleted": false,
+          "bestScore": 0,
+          "attempts": 0,
+          "items": [
+            {
+              "id": "l2-01",
+              "type": "fillTheGap",
+              "prompt": "Completa la frase",
+              "text": "X'jismek? — ___ Andrea.",
+              "gap": "Jien",
+              "accept": ["Jien"],
+              "answer": "Jien",
+              "difficulty": 2,
+              "tags": ["introductions", "pronouns"],
+              "explanation": "Jien significa 'Io' e si usa per presentarsi"
+            },
+            {
+              "id": "l2-02",
+              "type": "typeWhatYouHear",
+              "prompt": "Scrivi quello che senti",
+              "audio": "/audio/grazzi.mp3",
+              "accept": ["Grazzi"],
+              "answer": "Grazzi",
+              "difficulty": 1,
+              "tags": ["listening", "courtesy"],
+              "explanation": "Grazzi significa 'Grazie' in maltese"
+            },
+            {
+              "id": "l2-03",
+              "type": "multipleChoice",
+              "prompt": "Traduci: What is your name?",
+              "choices": ["X'jismek?", "Kif inti?", "Fejn inti?"],
+              "answer": "X'jismek?",
+              "difficulty": 2,
+              "tags": ["questions", "introductions"],
+              "explanation": "X'jismek? è la forma per chiedere il nome"
+            },
+            {
+              "id": "l2-04",
+              "type": "matchPairs",
+              "prompt": "Abbina le domande con le risposte",
+              "pairs": [
+                ["X'jismek?", "Jien Andrea"],
+                ["Kif inti?", "Tajjeb, grazzi"],
+                ["Fejn inti?", "Minn Malta"]
+              ],
+              "answer": ["X'jismek?", "Kif inti?", "Fejn inti?"],
+              "difficulty": 3,
+              "tags": ["conversations", "questions"],
+              "explanation": "Queste sono le domande base per una conversazione"
+            }
+          ]
+        },
+        {
+          "id": "l3-numbers",
+          "title": "Numri 1–10 - Numeri",
+          "description": "Impara a contare da 1 a 10 in maltese",
+          "order": 3,
+          "estimatedDuration": 12,
+          "isCompleted": false,
+          "bestScore": 0,
+          "attempts": 0,
+          "items": [
+            {
+              "id": "l3-01",
+              "type": "multipleChoice",
+              "prompt": "Traduci: four",
+              "choices": ["erbgħa", "tlieta", "sitta"],
+              "answer": "erbgħa",
+              "difficulty": 2,
+              "tags": ["numbers", "counting"],
+              "explanation": "erbgħa è il numero 4 in maltese"
+            },
+            {
+              "id": "l3-02",
+              "type": "matchPairs",
+              "prompt": "Abbina i numeri maltesi con quelli inglesi",
+              "pairs": [
+                ["wieħed", "one"],
+                ["tnejn", "two"],
+                ["tlieta", "three"],
+                ["erbgħa", "four"],
+                ["ħamsa", "five"],
+                ["sitta", "six"],
+                ["sebgħa", "seven"],
+                ["tmienja", "eight"],
+                ["disa'", "nine"],
+                ["għaxra", "ten"]
+              ],
+              "answer": ["wieħed", "tnejn", "tlieta", "erbgħa", "ħamsa", "sitta", "sebgħa", "tmienja", "disa'", "għaxra"],
+              "difficulty": 2,
+              "tags": ["numbers", "vocabulary"],
+              "explanation": "I numeri maltesi hanno forme irregolari e fratturate"
+            },
+            {
+              "id": "l3-03",
+              "type": "orderTheTokens",
+              "prompt": "Ordina i numeri da 1 a 5",
+              "tokens": ["ħamsa", "wieħed", "tlieta", "tnejn", "erbgħa"],
+              "accept": ["wieħed", "tnejn", "tlieta", "erbgħa", "ħamsa"],
+              "answer": ["wieħed", "tnejn", "tlieta", "erbgħa", "ħamsa"],
+              "difficulty": 3,
+              "tags": ["numbers", "ordering"],
+              "explanation": "L'ordine corretto è: wieħed (1), tnejn (2), tlieta (3), erbgħa (4), ħamsa (5)"
+            },
+            {
+              "id": "l3-04",
+              "type": "fillTheGap",
+              "prompt": "Completa la sequenza",
+              "text": "Wieħed, tnejn, ___, erbgħa, ħamsa",
+              "gap": "tlieta",
+              "accept": ["tlieta"],
+              "answer": "tlieta",
+              "difficulty": 2,
+              "tags": ["numbers", "sequences"],
+              "explanation": "tlieta è il numero 3 che completa la sequenza"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

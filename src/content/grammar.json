@@ -1,0 +1,210 @@
+{
+  "rules": [
+    {
+      "id": "gr-01",
+      "title": "L-Artiklu 'il-' - L'Articolo",
+      "description": "L'articolo determinativo 'il-' e le sue assimilazioni fonetiche",
+      "examples": [
+        "il-bieb (la porta) → id-dar (la casa)",
+        "il-ktieb (il libro) → il-ġnien (il giardino)",
+        "il-ħajja (la vita) → il-ħobż (il pane)"
+      ],
+      "exercises": ["gr-ex-01", "gr-ex-02"],
+      "difficulty": 2,
+      "category": "morphology",
+      "details": {
+        "assimilation": {
+          "d": "id- (es. id-dar)",
+          "g": "il- (es. il-ġnien)",
+          "ħ": "il- (es. il-ħobż)",
+          "q": "il- (es. il-qalb)",
+          "ż": "iż- (es. iż-żmien)"
+        }
+      }
+    },
+    {
+      "id": "gr-02",
+      "title": "Il-Fonemi Maltin - I Fonemi Maltesi",
+      "description": "I suoni caratteristici della lingua maltese",
+      "examples": [
+        "għ - suono gutturale (es. għal, għandu)",
+        "ħ - h aspirata (es. ħobż, ħajja)",
+        "q - occlusiva glottale (es. qalb, qattus)",
+        "x - fricativa palatale (es. xemx, xita)"
+      ],
+      "exercises": ["gr-ex-03", "gr-ex-04"],
+      "difficulty": 3,
+      "category": "phonetics",
+      "details": {
+        "phonemes": {
+          "għ": "suono gutturale, spesso silente",
+          "ħ": "h aspirata come in arabo",
+          "q": "occlusiva glottale",
+          "x": "pronunciato come 'sh' in inglese",
+          "ż": "z sonora",
+          "ġ": "g palatale"
+        }
+      }
+    },
+    {
+      "id": "gr-03",
+      "title": "Il-Plurali Fratturati - Plurali Irregolari",
+      "description": "I plurali che cambiano radicalmente forma",
+      "examples": [
+        "ktieb → kotba (libro → libri)",
+        "tifel → tfal (ragazzo → ragazzi)",
+        "ħobż → ħobżijiet (pane → pani)",
+        "dar → djar (casa → case)"
+      ],
+      "exercises": ["gr-ex-05", "gr-ex-06"],
+      "difficulty": 4,
+      "category": "morphology",
+      "details": {
+        "broken_plurals": {
+          "pattern_1": "CvC → CuCa (ktieb → kotba)",
+          "pattern_2": "CvC → CvCa (tifel → tfal)",
+          "pattern_3": "CvC → CvCijiet (ħobż → ħobżijiet)"
+        }
+      }
+    },
+    {
+      "id": "gr-04",
+      "title": "Il-Pronomi Suffissi - Pronomi Suffissi",
+      "description": "I pronomi che si attaccano alle preposizioni",
+      "examples": [
+        "miegħi (con me), miegħek (con te), miegħu (con lui)",
+        "minni (da me), minnek (da te), minnu (da lui)",
+        "għalija (per me), għalik (per te), għalih (per lui)"
+      ],
+      "exercises": ["gr-ex-07", "gr-ex-08"],
+      "difficulty": 3,
+      "category": "syntax",
+      "details": {
+        "suffixes": {
+          "1sg": "-i (miegħi, minni, għalija)",
+          "2sg": "-ek (miegħek, minnek, għalik)",
+          "3sg_m": "-u (miegħu, minnu, għalih)",
+          "3sg_f": "-ha (miegħha, minnha, għaliha)"
+        }
+      }
+    },
+    {
+      "id": "gr-05",
+      "title": "Il-Verbi Bażi - Verbi Base",
+      "description": "I verbi principali e le loro coniugazioni",
+      "examples": [
+        "jien qed niktib (sto scrivendo)",
+        "int qed tikteb (stai scrivendo)",
+        "huwa qed jikteb (sta scrivendo)",
+        "aħna qed niktbu (stiamo scrivendo)"
+      ],
+      "exercises": ["gr-ex-09", "gr-ex-10"],
+      "difficulty": 4,
+      "category": "morphology",
+      "details": {
+        "conjugation": {
+          "present_continuous": "qed + imperfect",
+          "1sg": "n- + stem + -ib",
+          "2sg": "t- + stem + -eb",
+          "3sg_m": "j- + stem + -eb",
+          "1pl": "n- + stem + -u"
+        }
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "gr-ex-01",
+      "type": "multipleChoice",
+      "prompt": "Quale articolo si usa con 'dar'?",
+      "choices": ["il-", "id-", "iż-", "in-"],
+      "answer": "id-",
+      "explanation": "Con 'dar' si usa 'id-' per assimilazione fonetica"
+    },
+    {
+      "id": "gr-ex-02",
+      "type": "fillTheGap",
+      "prompt": "Completa: ___ ġnien (il giardino)",
+      "gap": "il-",
+      "accept": ["il-"],
+      "answer": "il-",
+      "explanation": "Con 'ġnien' si mantiene 'il-' originale"
+    },
+    {
+      "id": "gr-ex-03",
+      "type": "multipleChoice",
+      "prompt": "Come si pronuncia 'xemx'?",
+      "choices": ["ksemks", "zemz", "shemesh", "ksemx"],
+      "answer": "shemesh",
+      "explanation": "La 'x' maltese si pronuncia come 'sh' in inglese"
+    },
+    {
+      "id": "gr-ex-04",
+      "type": "matchPairs",
+      "prompt": "Abbina i fonemi con le loro caratteristiche",
+      "pairs": [
+        ["għ", "suono gutturale"],
+        ["ħ", "h aspirata"],
+        ["q", "occlusiva glottale"],
+        ["x", "fricativa palatale"]
+      ],
+      "answer": ["għ", "ħ", "q", "x"],
+      "explanation": "Questi sono i fonemi caratteristici del maltese"
+    },
+    {
+      "id": "gr-ex-05",
+      "type": "multipleChoice",
+      "prompt": "Qual è il plurale di 'ktieb'?",
+      "choices": ["ktiebs", "ktieba", "kotba", "ktiebiet"],
+      "answer": "kotba",
+      "explanation": "Kotba è un plurale fratturato che cambia la struttura interna"
+    },
+    {
+      "id": "gr-ex-06",
+      "type": "fillTheGap",
+      "prompt": "Completa: tifel → ___ (ragazzo → ragazzi)",
+      "gap": "tfal",
+      "accept": ["tfal"],
+      "answer": "tfal",
+      "explanation": "Tfal è il plurale fratturato di tifel"
+    },
+    {
+      "id": "gr-ex-07",
+      "type": "multipleChoice",
+      "prompt": "Come si dice 'con me' in maltese?",
+      "choices": ["miegħek", "miegħi", "miegħu", "miegħha"],
+      "answer": "miegħi",
+      "explanation": "Miegħi usa il suffisso -i per la prima persona singolare"
+    },
+    {
+      "id": "gr-ex-08",
+      "type": "matchPairs",
+      "prompt": "Abbina i pronomi suffissi con le persone",
+      "pairs": [
+        ["miegħi", "con me"],
+        ["miegħek", "con te"],
+        ["miegħu", "con lui"],
+        ["miegħha", "con lei"]
+      ],
+      "answer": ["miegħi", "miegħek", "miegħu", "miegħha"],
+      "explanation": "Questi sono i pronomi suffissi con la preposizione 'ma'"
+    },
+    {
+      "id": "gr-ex-09",
+      "type": "multipleChoice",
+      "prompt": "Come si dice 'sto scrivendo' in maltese?",
+      "choices": ["qed niktib", "qed tikteb", "qed jikteb", "qed niktbu"],
+      "answer": "qed niktib",
+      "explanation": "Qed niktib usa la prima persona singolare con il prefisso n-"
+    },
+    {
+      "id": "gr-ex-10",
+      "type": "fillTheGap",
+      "prompt": "Completa: int ___ tikteb (tu stai scrivendo)",
+      "gap": "qed",
+      "accept": ["qed"],
+      "answer": "qed",
+      "explanation": "Qed è la particella che indica il presente continuo"
+    }
+  ]
+}

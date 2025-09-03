@@ -1,0 +1,144 @@
+{
+  "badges": [
+    {
+      "id": "badge-01",
+      "name": "Bongu Starter",
+      "description": "Hai completato la tua prima lezione",
+      "icon": "🌅",
+      "category": "milestone",
+      "requirements": [
+        {
+          "type": "lessons",
+          "value": 1,
+          "description": "Completa 1 lezione"
+        }
+      ]
+    },
+    {
+      "id": "badge-02",
+      "name": "Ħabib tal-Malti",
+      "description": "Amico del maltese - hai completato 5 lezioni",
+      "icon": "🤝",
+      "category": "milestone",
+      "requirements": [
+        {
+          "type": "lessons",
+          "value": 5,
+          "description": "Completa 5 lezioni"
+        }
+      ]
+    },
+    {
+      "id": "badge-03",
+      "name": "Streak Master",
+      "description": "Hai mantenuto una streak di 7 giorni",
+      "icon": "🔥",
+      "category": "achievement",
+      "requirements": [
+        {
+          "type": "streak",
+          "value": 7,
+          "description": "Mantieni una streak di 7 giorni"
+        }
+      ]
+    },
+    {
+      "id": "badge-04",
+      "name": "XP Hunter",
+      "description": "Hai raggiunto 1000 XP",
+      "icon": "⭐",
+      "category": "achievement",
+      "requirements": [
+        {
+          "type": "xp",
+          "value": 1000,
+          "description": "Raggiungi 1000 XP"
+        }
+      ]
+    },
+    {
+      "id": "badge-05",
+      "name": "Grammar Guru",
+      "description": "Hai completato 10 esercizi di grammatica",
+      "icon": "📚",
+      "category": "achievement",
+      "requirements": [
+        {
+          "type": "custom",
+          "value": 10,
+          "description": "Completa 10 esercizi di grammatica"
+        }
+      ]
+    },
+    {
+      "id": "badge-06",
+      "name": "Pronunciation Pro",
+      "description": "Hai completato 20 esercizi di pronuncia",
+      "icon": "🎤",
+      "category": "achievement",
+      "requirements": [
+        {
+          "type": "custom",
+          "value": 20,
+          "description": "Completa 20 esercizi di pronuncia"
+        }
+      ]
+    },
+    {
+      "id": "badge-07",
+      "name": "Speed Demon",
+      "description": "Hai completato una lezione in meno di 5 minuti",
+      "icon": "⚡",
+      "category": "achievement",
+      "requirements": [
+        {
+          "type": "custom",
+          "value": 5,
+          "description": "Completa una lezione in meno di 5 minuti"
+        }
+      ]
+    },
+    {
+      "id": "badge-08",
+      "name": "Perfect Score",
+      "description": "Hai ottenuto 100% in una lezione",
+      "icon": "🏆",
+      "category": "achievement",
+      "requirements": [
+        {
+          "type": "custom",
+          "value": 100,
+          "description": "Ottieni 100% in una lezione"
+        }
+      ]
+    },
+    {
+      "id": "badge-09",
+      "name": "Week Warrior",
+      "description": "Hai studiato per 7 giorni consecutivi",
+      "icon": "📅",
+      "category": "achievement",
+      "requirements": [
+        {
+          "type": "streak",
+          "value": 7,
+          "description": "Studia per 7 giorni consecutivi"
+        }
+      ]
+    },
+    {
+      "id": "badge-10",
+      "name": "Maltese Native",
+      "description": "Hai completato tutte le lezioni base",
+      "icon": "🇲🇹",
+      "category": "special",
+      "requirements": [
+        {
+          "type": "lessons",
+          "value": 25,
+          "description": "Completa 25 lezioni"
+        }
+      ]
+    }
+  ]
+}
